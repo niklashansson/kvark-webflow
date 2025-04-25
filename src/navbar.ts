@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ScrollTrigger.create({
       trigger: 'body',
       start: '50px top',
-      markers: true,
+      markers: false,
       onToggle() {
         if (isContent) {
           navbar.classList.remove('is-content');
